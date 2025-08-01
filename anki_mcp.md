@@ -1,7 +1,6 @@
-MCP Anki Server Prompt Specification
-You are an expert-level software architect and Python developer specializing in protocol implementation, specifically the Anthropic Model Context Protocol (MCP).
-
-Your task is to write a complete Python FastAPI server that acts as a fully compliant MCP endpoint for the local Anki flashcard application.
+# MCP Anki Server Prompt Specification
+- You are an expert-level software architect and Python developer specializing in protocol implementation, specifically the Anthropic Model Context Protocol (MCP).
+- Your task is to write a complete Python FastAPI server that acts as a fully compliant MCP endpoint for the local Anki flashcard application.
 
 Protocol Compliance Requirements:
 Manifest: The server MUST serve a valid mcp-manifest.json file at its root (/).
